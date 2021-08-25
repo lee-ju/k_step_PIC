@@ -38,6 +38,7 @@ repo = {'P1': 20050101,
 - `repo` meaning:
     1. `repo: Dictionary containing the registration date of each patent.
 <img src="/imgs/fig-example.png" width="400" height="300">
+
 #### 1step PIC
 ```python
 k = 1
@@ -54,7 +55,7 @@ print("* * 1step-PIC * * \n", results, "\n")
 0  P1  P3
 1  P1  P5 
 ```
-![fig-1step](imgs/fig-1step.png)
+<img src="/imgs/fig-1step.png" width="400" height="300">
 
 #### 2step PIC
 ```python
@@ -71,7 +72,7 @@ print("* * 2step-PIC * * \n", results, "\n")
    P_E P_L
 0  P1  P6 
 ```
-![fig-2step](imgs/fig-2step.png){: width="30%" height="30%"}
+<img src="/imgs/fig-1step.png" width="400" height="300">
 
 #### 3step PIC
 ```python
@@ -88,4 +89,4 @@ print("* * 3step-PIC * * \n", results, "\n")
    P_E P_L
 0  P1  P9 
 ```
-![fig-3step](imgs/fig-3step.png){: width="30%" height="30%"}
+<img src="/imgs/fig-1step.png" width="400" height="300">
