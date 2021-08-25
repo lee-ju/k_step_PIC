@@ -36,7 +36,7 @@ repo = {'P1': 20050101,
     2. `to_sam`: Out-node lists of Similarity Network.
 
 - `repo` meaning:
-    1. `repo: Dictionary containing the registration date of each patent.
+    1. `repo`: Dictionary containing the registration date of each patent.
 <img src="/imgs/fig-example.png" width="400" height="300">
 
 #### 1step PIC
@@ -90,3 +90,15 @@ print("* * 3step-PIC * * \n", results, "\n")
 0  P1  P9 
 ```
 <img src="/imgs/fig-3step.png" width="400" height="300">
+
+## Parameters
+
+#### `k_step_PIC`
+- `k_step_pic_E` constructor:
+    1. `from_cam`: In-node lists of Citation Network. (default: None)
+    2. `to_cam`: Out-node lists of Citation Network. (default: None)
+    3. `from_sam`: In-node lists of Similarity Network. (default: None)
+    4. `to_sam`: Out-node lists of Similarity Network. (default: None)
+    5. `repo`: Dictionary containing the registration date of each patent. (default: None)
+    6. `td_max`: Maximum difference in registration dates. (default: None)
+    7. `k`: Number of steps. (default: 1)
