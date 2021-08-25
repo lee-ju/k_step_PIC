@@ -7,7 +7,7 @@
 
 #### Load Package
 ```python
-from k_step_pic import kstep_pic_E
+from k_step_pic import k_step_pic_E
 ```
 
 #### Example Data
