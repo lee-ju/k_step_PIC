@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime
 import networkx as nx
 
-def kstep_pic_E(from_cam, to_cam,
+def k_step_pic_E(from_cam, to_cam,
                 from_sam, to_sam,
                 repo, td_max, k=2):
     pic_E = []
@@ -75,17 +75,17 @@ if __name__ == '__main__':
             'P9': 20200101,
             'P10': 20150101}
 
-    results = kstep_pic_E(from_cam=from_cam, to_cam=to_cam,
-                          from_sam=from_sam, to_sam=to_sam,
-                          repo=repo, td_max=365*20, k=1)
+    results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
+                           from_sam=from_sam, to_sam=to_sam,
+                           repo=repo, td_max=365*20, k=1)
     print("* * 1step-PIC * * \n", results, "\n")
 
-    results = kstep_pic_E(from_cam=from_cam, to_cam=to_cam,
-                          from_sam=from_sam, to_sam=to_sam,
-                          repo=repo, td_max=365*20, k=2)
+    results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
+                           from_sam=from_sam, to_sam=to_sam,
+                           repo=repo, td_max=365*20, k=2)
     print("* * 2step-PIC * * \n", results, "\n")
 
-    results = kstep_pic_E(from_cam=from_cam, to_cam=to_cam,
-                          from_sam=from_sam, to_sam=to_sam,
-                          repo=repo, td_max=365*20, k=3)
+    results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
+                           from_sam=from_sam, to_sam=to_sam,
+                           repo=repo, td_max=365*20, k=3)
     print("* * 3step-PIC * * \n", results, "\n")
