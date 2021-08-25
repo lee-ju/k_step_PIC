@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='k_step_pic',
-    version='0.0.1',
+    version='0.0.2',
     description='k-step-PIC: for Prior Art Search',
     url='https://github.com/lee-ju/k_step_PIC.git',
     author='Juhyun Lee',
