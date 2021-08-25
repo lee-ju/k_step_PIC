@@ -72,7 +72,7 @@ print("* * 2step-PIC * * \n", results, "\n")
    P_E P_L
 0  P1  P6 
 ```
-<img src="/imgs/fig-1step.png" width="400" height="300">
+<img src="/imgs/fig-2step.png" width="400" height="300">
 
 #### 3step PIC
 ```python
@@ -89,4 +89,4 @@ print("* * 3step-PIC * * \n", results, "\n")
    P_E P_L
 0  P1  P9 
 ```
-<img src="/imgs/fig-1step.png" width="400" height="300">
+<img src="/imgs/fig-3step.png" width="400" height="300">
