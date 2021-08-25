@@ -37,8 +37,7 @@ repo = {'P1': 20050101,
 
 - `repo` meaning:
     1. `repo: Dictionary containing the registration date of each patent.
-![fig-example](imgs/fig-example.png){: width="30%" height="30%"}
-
+<img src="/imgs/fig-example.png" width="300" height="300">
 #### 1step PIC
 ```python
 k = 1
