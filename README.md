@@ -1,7 +1,7 @@
 # k-step-PIC
 ## Installation
 
-`pip install git+https://github.com/lee-ju/k_step_PIC.git`
+`pip install git+https://github.com/lee-ju/k_step_pic.git`
 
 ## Usage
 
