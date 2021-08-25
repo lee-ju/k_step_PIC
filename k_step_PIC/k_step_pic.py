@@ -4,7 +4,7 @@ import networkx as nx
 
 def k_step_pic_E(from_cam, to_cam,
                 from_sam, to_sam,
-                repo, td_max, k=2):
+                repo, td_max, k=1):
     pic_E = []
     pic_L = []
     SPL_list = []
