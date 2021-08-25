@@ -1,4 +1,4 @@
-# k_step_PIC
+# k-step-PIC
 ## Installation
 
 `pip install git+https://github.com/lee-ju/k_step_PIC.git`
@@ -42,9 +42,9 @@ repo = {'P1': 20050101,
 #### 1step PIC
 ```python
 k = 1
-results = kstep_pic_E(from_cam=from_cam, to_cam=to_cam,
-                      from_sam=from_sam, to_sam=to_sam,
-                      repo=repo, td_max=365*20, k=k)
+results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
+                       from_sam=from_sam, to_sam=to_sam,
+                       repo=repo, td_max=365*20, k=k)
 print("* * 1step-PIC * * \n", results, "\n")
 ```
 
@@ -60,9 +60,9 @@ print("* * 1step-PIC * * \n", results, "\n")
 #### 2step PIC
 ```python
 k = 2
-results = kstep_pic_E(from_cam=from_cam, to_cam=to_cam,
-                      from_sam=from_sam, to_sam=to_sam,
-                      repo=repo, td_max=365*20, k=k)
+results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
+                       from_sam=from_sam, to_sam=to_sam,
+                       repo=repo, td_max=365*20, k=k)
 print("* * 2step-PIC * * \n", results, "\n")
 ```
 
@@ -77,9 +77,9 @@ print("* * 2step-PIC * * \n", results, "\n")
 #### 3step PIC
 ```python
 k = 3
-results = kstep_pic_E(from_cam=from_cam, to_cam=to_cam,
-                      from_sam=from_sam, to_sam=to_sam,
-                      repo=repo, td_max=365*20, k=k)
+results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
+                       from_sam=from_sam, to_sam=to_sam,
+                       repo=repo, td_max=365*20, k=k)
 print("* * 3step-PIC * * \n", results, "\n")
 ```
 
