@@ -1,4 +1,7 @@
 # k-step-PIC
+## "A Fast and Scalable Algorithm for Prior Art Search"
+[`see more`]
+
 ## Installation
 
 `pip install git+https://github.com/lee-ju/k_step_pic.git`
