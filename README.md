@@ -1,6 +1,6 @@
 # k-step-PIC
 ## "A Fast and Scalable Algorithm for Prior Art Search"
-[`see more`]
+[`see more`](10.1109/ACCESS.2022.3141494)
 
 ## Installation
 
@@ -42,53 +42,53 @@ repo = {'P1': 20050101,
     1. `repo`: Dictionary containing the registration date of each patent.
 <img src="/imgs/fig-example.png" width="400" height="300">
 
-#### 1step PIC
+#### one-step PIC
 ```python
 k = 1
 results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
                        from_sam=from_sam, to_sam=to_sam,
                        repo=repo, td_max=365*20, k=k)
-print("* * 1step-PIC * * \n", results, "\n")
+print("* * one-step-PIC * * \n", results, "\n")
 ```
 
 ```python
 [Out]: 
-* * 1step-PIC * * 
+* * one-step-PIC * * 
    P_E P_L
 0  P1  P3
 1  P1  P5 
 ```
 <img src="/imgs/fig-1step.png" width="400" height="300">
 
-#### 2step PIC
+#### two-step PIC
 ```python
 k = 2
 results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
                        from_sam=from_sam, to_sam=to_sam,
                        repo=repo, td_max=365*20, k=k)
-print("* * 2step-PIC * * \n", results, "\n")
+print("* * two-step-PIC * * \n", results, "\n")
 ```
 
 ```python
 [Out]: 
-* * 2step-PIC * * 
+* * two-step-PIC * * 
    P_E P_L
 0  P1  P6 
 ```
 <img src="/imgs/fig-2step.png" width="400" height="300">
 
-#### 3step PIC
+#### three-step PIC
 ```python
 k = 3
 results = k_step_pic_E(from_cam=from_cam, to_cam=to_cam,
                        from_sam=from_sam, to_sam=to_sam,
                        repo=repo, td_max=365*20, k=k)
-print("* * 3step-PIC * * \n", results, "\n")
+print("* * three-step-PIC * * \n", results, "\n")
 ```
 
 ```python
 [Out]: 
-* * 3step-PIC * * 
+* * three-step-PIC * * 
    P_E P_L
 0  P1  P9 
 ```
