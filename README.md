@@ -1,6 +1,5 @@
 # k-step-PIC
-## "A Fast and Scalable Algorithm for Prior Art Search"
-[`see more`](https://doi.org/10.1109/ACCESS.2022.3141494)
+## ["A Fast and Scalable Algorithm for Prior Art Search"](https://doi.org/10.1109/ACCESS.2022.3141494)
 
 ## Installation
 
